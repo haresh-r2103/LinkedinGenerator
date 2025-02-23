@@ -1,7 +1,7 @@
 import streamlit as st
 from few_shot import FewShotPosts
 from post_generator import generate_post
-
+from dotenv import load_dotenv
 
 # Options for length and language
 length_options = ["Short", "Medium", "Long"]
